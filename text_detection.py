@@ -21,5 +21,5 @@ for t in text_:
         cv2.rectangle(img, (int(bbox[0][0]), int(bbox[0][1])), (int(bbox[2][0]), int(bbox[2][1])), (0, 255, 0), 5)
         cv2.putText(img, text, bbox[0], cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 3)        # (image, text, bottom left corner, font, font size, color, thickness)
 
-plt.imshow(cv2.cvtColor(img, cv2.))
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.show()

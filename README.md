@@ -1,0 +1,1 @@
+# Text-Detection-OpenCV-EasyOCR
